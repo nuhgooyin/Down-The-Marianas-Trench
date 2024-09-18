@@ -30,7 +30,7 @@ An endless-scroller adventure game that raises awareness about marine pollution,
 ![Gameover screen](https://github.com/nuhgooyin/Down-The-Marianas-Trench/blob/main/Images/game_over_screen.png)
 
 ## Video Demo
-![Watch the Down The Marianas Trench Video Demo](https://www.youtube.com/watch?v=F0F1-yFDsr4)
+[Watch the Down The Marianas Trench Video Demo](https://www.youtube.com/watch?v=F0F1-yFDsr4)
 
 ## Installation
 
