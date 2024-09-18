@@ -1,14 +1,7 @@
-# Down The Marianas Trench Initial Release - Computer Science - Culminating Performance Task
-# **IMPORTANT NOTE** Program was written in VSCODE, certain elements/components may not work as expected on Repl.it.**
-# **IMPORTANT NOTE** Possible file location issues with Pyzo. Please use r prefix to specify proper file location if needed.**
+# Down The Marianas Trench Initial Release
 
 # @author Dan Nguyen
-# @course ICS3UC
 # @date 2021/01/28
-
-# Simpson College Computer Science - MVC version
-# http://programarcadegames.com/
-# http://simpson.edu/computer-science/
 
 ## Pygame setup
 import pygame
