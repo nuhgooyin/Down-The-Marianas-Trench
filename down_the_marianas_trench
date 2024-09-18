@@ -7,6 +7,7 @@
 import pygame
 import random
 pygame.init()
+pygame.mixer.init()
 size = (1000, 1000)
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("Down The Marianas Trench")
@@ -375,27 +376,27 @@ food = Food()
 bubble = Bubble()
 
 # Importing sea turtle image and assigning position
-playerImage = pygame.image.load(r"Graphics\sea_turtle.png").convert()
+playerImage = pygame.image.load(r"./Graphics/sea_turtle.png").convert()
 playerImage.set_colorkey(BLACK)
 playerImagePos = [player.xPos, player.yPos]
 
 # Importing enemy image
-enemyImage = pygame.image.load(r"Graphics\jellyfish.png").convert()
+enemyImage = pygame.image.load(r"./Graphics/jellyfish.png").convert()
 enemyImage.set_colorkey(BLACK)
 
 # Importing food image
-foodImage = pygame.image.load(r"Graphics\food.png").convert()
+foodImage = pygame.image.load(r"./Graphics/food.png").convert()
 foodImage.set_colorkey(BLACK)
 
 # Import custom font
-font = pygame.font.Font(r"Assets\somethingfishy.ttf", 50)
-smallFont = pygame.font.Font(r"Assets\somethingfishy.ttf", 25)
+font = pygame.font.Font(r"./Assets/somethingfishy.ttf", 50)
+smallFont = pygame.font.Font(r"./Assets/somethingfishy.ttf", 25)
 
 # Import user interactive sounds
-enemyHitSound = pygame.mixer.Sound(r"Sounds\enemyhitsound.ogg")
-playerDeathSound = pygame.mixer.Sound(r"Sounds\playerdeathsound.ogg")
-playerHitSound = pygame.mixer.Sound(r"Sounds\playerhitsound.ogg")
-foodHitSound = pygame.mixer.Sound(r"Sounds\foodhit.ogg")
+enemyHitSound = pygame.mixer.Sound(r"./Sounds/enemyhitsound.ogg")
+playerDeathSound = pygame.mixer.Sound(r"./Sounds/playerdeathsound.ogg")
+playerHitSound = pygame.mixer.Sound(r"./Sounds/playerhitsound.ogg")
+foodHitSound = pygame.mixer.Sound(r"./Sounds/foodhit.ogg")
 
 # Set default player speed
 speed = 13
